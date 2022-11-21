@@ -1,0 +1,33 @@
+.project__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project__item:hover,
+.project__item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.project__desk {
+    padding: 20px 24px;
+    border-bottom: 1px solid #f1f0ee;
+    border-right: 1px solid #f1f0ee;
+    border-left: 1px solid #f1f0ee;
+}
+
+.project__name {
+    background-color: var(--main-background-color);
+    color: var(--main-color-text);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-denotation {
+    color: var(--color-text);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}

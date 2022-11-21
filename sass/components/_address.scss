@@ -1,0 +1,30 @@
+.address {
+    margin-top: 20px;
+}
+
+.addres__list {
+    list-style: none;
+}
+
+.addres__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+.addres__link {
+    color: var(--main-background-color);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.tel__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-decoration);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}

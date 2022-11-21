@@ -1,0 +1,35 @@
+.filter__list {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.filter__btn {
+    padding: 6px 22px;
+    color: var(--main-color-text);
+    background-color: var(--baskground-team);
+    border-color: 1px solid var(--baskground-team);
+    border: 1px solid var(--baskground-team);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    transition: background-color var(--animation), border var(--animation),
+        color var(--animation);
+}
+
+.filter__btn:hover,
+.filter__btn:focus {
+    color: var(--main-background-color);
+    background-color: var(--cursor);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border-color: var(--cursor);
+}
