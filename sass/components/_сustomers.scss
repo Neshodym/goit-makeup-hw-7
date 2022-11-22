@@ -1,4 +1,4 @@
-.сustomers {
+.clients {
     padding-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
@@ -6,7 +6,7 @@
     letter-spacing: 0.03em;
 }
 
-.сustomers__list {
+.сustomers {
     display: flex;
     justify-content: space-between;
     text-decoration: none;
@@ -29,15 +29,15 @@
     color: #afb1b8;
     transition: transform var(--animation), border var(--animation),
         color var(--animation);
-}
-
-.customers__link:hover,
-.customers__link:focus {
+      
+&:hover,
+&:focus {
     color: var(--cursor);
     border-color: var(--cursor);
     background-color: inherit;
 }
+}
 
 .customer__icon {
     fill: currentColor;
-}   
+}

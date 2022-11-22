@@ -50,17 +50,17 @@ img {
 }
 
 .benefits,
-.makeing__list,
+.makeing,
 .team__list,
 .project__list,
-.filter__list,
+.filter,
 .сustomers-item,
 .socials__item {
   list-style: none;
 }
-*/
- /* header */
- .header {
+
+/* header */
+.header {
   border-bottom: 1px solid #ececec;
 }
 .nav {
@@ -253,7 +253,7 @@ img {
   width: 270px;
 }
 
-.benefit__icons {
+.benefits__icons {
   display: flex;
   margin-bottom: 30px;
   height: 120px;
@@ -262,7 +262,7 @@ img {
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.benefit__text {
+.benefits__text {
   margin-bottom: 10px;
   color: var(--main-color-text);
   font-weight: 700;
@@ -272,7 +272,7 @@ img {
   text-transform: uppercase;
 }
 
-.ben__pref {
+.benefits__pref {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -282,7 +282,7 @@ img {
 
 /* makeing  */
 
-.makeing__title {
+.we-do {
   margin-bottom: 50px;
   color: var(--main-color-text);
   font-size: 36px;
@@ -291,7 +291,7 @@ img {
   text-align: center;
 }
 
-.makeing__list {
+.makeing {
   display: flex;
   justify-content: space-between;
 }
@@ -373,7 +373,7 @@ img {
   gap: 10px;
 }
 
-.social__link {
+.socials__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -385,12 +385,12 @@ img {
   fill: currentColor;
   transition: background-color var(--animation), color var(--animation);
 }
-.social__link:hover {
+.socials__link:hover {
   color: var(--main-background-color);
   background-color: var(--cursor);
 }
 
-.social__link:focus {
+.socials__link:focus {
   border-radius: 50%;
   color: var(--main-background-color);
   background-color: var(--cursor);
@@ -398,14 +398,14 @@ img {
 
 /* Постійні клієнти */
 
-.сustomers {
+.clients {
   padding-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.сustomers__list {
+.сustomers {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
@@ -507,7 +507,7 @@ img {
 .socials__footer {
   margin-left: 70px;
 }
-.social__link--black {
+.socials__link--black {
   fill: var(--main-background-color);
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--animation), fill var(--animation);
@@ -584,7 +584,7 @@ img {
 
 /* Portfolio */
 
-.filter__list {
+.filter {
   display: flex;
   justify-content: center;
   font-weight: 400;
@@ -645,7 +645,7 @@ img {
   letter-spacing: 0.06em;
 }
 
-.project-denotation {
+.project__text {
   color: var(--color-text);
   font-size: 16px;
   line-height: 1.87;

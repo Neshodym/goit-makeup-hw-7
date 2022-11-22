@@ -43,17 +43,18 @@
   text-decoration: none;
 
   transition: color var(--animation);
-}
-.nav__link:focus-within {
+
+  &:focus-within {
   color: var(--cursor);
 }
-.nav__link:hover {
+&:hover {
   color: var(--cursor);
 }
-.nav__link--curent {
+
+&--curent {
   color: var(--cursor);
 }
-.nav__link--curent::after {
+&--curent::after {
   color: var(--cursor);
   content: "";
   position: absolute;
@@ -65,3 +66,9 @@
   border-radius: 2px;
   background-color: var(--cursor);
 }
+
+}
+
+
+
+

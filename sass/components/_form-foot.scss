@@ -17,12 +17,14 @@
     cursor: pointer;
     transition: color var(--animation), background-color var(--animation),
         border var(--animation);
-}
 
-.form__btn:hover,
-.form__btn:focus {
+        &:hover,
+&:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+}
+
+
 
 .form__send {
     position: relative;

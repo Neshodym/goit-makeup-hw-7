@@ -21,6 +21,17 @@
   list-style: none;
   align-items: center;
   transition: color var(--animation);
+
+  &:hover .contacts__icon,
+&:focus .contacts__icon {
+  fill: var(--cursor);
+  transition: color var(--animation);
+}
+&:hover,
+&:focus {
+  color: var(--cursor);
+  background-color: inherit;
+}
 }
 
 .contacts__icon {
@@ -29,14 +40,5 @@
   align-items: center;
 }
 
-.contacts__link:hover .contacts__icon,
-.contacts__link:focus .contacts__icon {
-  fill: var(--cursor);
-  transition: color var(--animation);
-}
 
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--cursor);
-  background-color: inherit;
-}
+

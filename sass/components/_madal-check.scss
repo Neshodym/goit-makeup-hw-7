@@ -21,6 +21,13 @@
     -moz-appearance: none;
     appearance: none;
     position: absolute;
+
+    &:checked+.check__jpg .uncheck {
+    opacity: 0;
+}
+&:checked+.check__jpg .check {
+    opacity: 1;
+}
 }
 
 .check__jpg {
@@ -35,18 +42,14 @@
     opacity: 1;
 }
 
-.check__input:checked+.check__jpg .uncheck {
-    opacity: 0;
-}
+
 
 .check__jpg .check {
     opacity: 0;
     transition: color var(--animation);
 }
 
-.check__input:checked+.check__jpg .check {
-    opacity: 1;
-}
+
 
 .check__link {
     font-weight: 400;

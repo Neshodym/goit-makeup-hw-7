@@ -22,10 +22,10 @@
     line-height: 1.9;
     letter-spacing: 0.06em;
     transition: color var(--animation);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
+    &:hover,
+&:focus {
     background: #168ff0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+}
+
